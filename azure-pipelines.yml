@@ -29,6 +29,6 @@ steps:
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
     flattenFolders: true
 
-    TargetFolder: '$(build.artifactstagingdirectory)'
+    
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifacts: drop'
